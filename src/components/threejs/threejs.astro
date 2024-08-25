@@ -12,8 +12,14 @@ const cubeColor = block.cube_color;
 ---
 
 <div class="absolute inset-0">
-  <script type="module" defer define:vars={{ xRotation, yRotation, cubeColor }}>
+  <script
+    is:inline
+    type="module"
+    defer
+    define:vars={{ xRotation, yRotation, cubeColor }}
+  >
     import * as THREE from "three";
+
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(
       75,
