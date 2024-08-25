@@ -16,5 +16,5 @@ content_blocks:
   - _bookshop_name: threejs
     x_rotation: 0
     y_rotation: 0.05
-    cube_color:
+    cube_color: Byzantine Blue
 ---
