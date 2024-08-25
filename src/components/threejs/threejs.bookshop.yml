@@ -2,13 +2,19 @@
 spec:
   structures:
     - content_blocks
-  label: Test
-  description:
-  icon: "cottage"
-  tags: []
+  label: Three.js component
+  description: An example of a three js component
+  icon: "3d_rotation"
+  tags:
+    - 3D
+    - Three.js
+    - Example
 
 # Defines the structure of this component, as well as the default values
 blueprint:
+  x_rotation: 0.01
+  y_rotation: 0.01
+  cube_color: "#ff0000"
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

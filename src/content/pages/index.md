@@ -13,5 +13,8 @@ seo:
   open_graph_type:
   no_index: false
 content_blocks:
-  - _bookshop_name: test
+  - _bookshop_name: threejs
+    x_rotation: 0.01
+    y_rotation: 0.01
+    cube_color: "#ff0000"
 ---
