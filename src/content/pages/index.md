@@ -13,7 +13,7 @@ seo:
   open_graph_type:
   no_index: false
 content_blocks:
-  - _bookshop_name: threejs
+  - _bookshop_name: 3d-cube
     x_rotation: 0.01
     y_rotation: 0.03
     cube_color: "#ff00ff"

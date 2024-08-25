@@ -2,13 +2,13 @@
 spec:
   structures:
     - content_blocks
-  label: Three.js component
-  description: An example of a three js component
+  label: 3d Cube
+  description: A spinning cube
   icon: "3d_rotation"
   tags:
     - 3D
     - Three.js
-    - Example
+    - Cube
 
 # Defines the structure of this component, as well as the default values
 blueprint:
