@@ -17,4 +17,5 @@ content_blocks:
     x_rotation: 0.01
     y_rotation: 0.03
     cube_color: "#ff00ff"
+  - _bookshop_name: 3d-solar-system
 ---
