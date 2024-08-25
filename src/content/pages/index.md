@@ -14,7 +14,7 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: threejs
-    x_rotation: 0
-    y_rotation: 0.05
-    cube_color: Byzantine Blue
+    x_rotation: 0.01
+    y_rotation: 0.03
+    cube_color: "#ff00ff"
 ---

@@ -47,5 +47,3 @@ collections_config:
 data_config:
   icons:
     path: data/icons.json
-  colors:
-    path: data/colors.json
