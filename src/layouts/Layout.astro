@@ -83,9 +83,8 @@ const canonicalURL = new URL(seo?.canonical_url ?? Astro.url.pathname, baseUrl);
     />
   </head>
   <body>
-    <main>
-      <slot />
-    </main>
+    <slot />
+
     <style is:global>
       :root {
       }

@@ -4,14 +4,14 @@ interface Props {}
 const block = Astro.props;
 ---
 
-<div class="absolute inset-0">
+<div class="w-1/2 mx-auto">
   <script is:inline type="module" defer define:vars={{}}>
     import { Scene, WebGLRenderer, PerspectiveCamera } from "three";
     import { OrbitControls } from "three/addons/controls/OrbitControls.js";
-    import { Starfield } from "./starfield.js";
+    import { Starfield } from "./solar-system/starfield.js";
 
-    const w = window.innerWidth;
-    const h = window.innerHeight;
+    const w = window.innerWidth / 2;
+    const h = window.innerHeight / 2;
 
     const scene = new Scene();
     const camera = new PerspectiveCamera(75, w / h, 0.1, 100);
@@ -36,8 +36,8 @@ const block = Astro.props;
     renderer.render(scene, camera);
 
     window.addEventListener("resize", () => {
-      const w = window.innerWidth;
-      const h = window.innerHeight;
+      const w = window.innerWidth / 2;
+      const h = window.innerHeight / 2;
       renderer.setSize(w, h);
       camera.aspect = w / h;
       camera.updateProjectionMatrix();

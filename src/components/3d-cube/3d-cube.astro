@@ -11,7 +11,7 @@ const yRotation = block.y_rotation;
 const cubeColor = block.cube_color;
 ---
 
-<div class="absolute inset-0">
+<div class="">
   <script
     is:inline
     type="module"
@@ -20,15 +20,17 @@ const cubeColor = block.cube_color;
   >
     import * as THREE from "three";
     const scene = new THREE.Scene();
+    const innerWidth = window.innerWidth / 2;
+    const innerHeight = window.innerHeight / 2;
     const camera = new THREE.PerspectiveCamera(
       75,
-      window.innerWidth / window.innerHeight,
+      innerWidth / innerHeight,
       0.1,
       1000
     );
 
     const renderer = new THREE.WebGLRenderer();
-    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setSize(innerWidth, innerHeight);
     renderer.setAnimationLoop(animate);
     document.body.appendChild(renderer.domElement);
 
